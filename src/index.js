@@ -6,6 +6,8 @@ import dotenv from "dotenv"
     path:'./env'
 
 })
+// ynha error handle ki h 
+
  data_base()
  .then(()=>{
     app.on( "error",(error)=>{
